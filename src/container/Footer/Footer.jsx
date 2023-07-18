@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs';
 
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
@@ -23,9 +23,9 @@ const Footer = () => (
         <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <BsFacebook />
+          <BsTwitter />
+          <BsInstagram />
         </div>
       </div>
 
